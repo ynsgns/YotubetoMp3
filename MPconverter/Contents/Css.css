@@ -1,0 +1,118 @@
+﻿
+main {
+    background: #FFF
+}
+
+.overlay {
+    background-image: url('DarkBg.fw.png');
+    padding: 10px 0 10px 0;
+    margin-left: -2%;
+    width: 104%;
+    -webkit-object-fit: fill;
+    object-fit: fill;    
+}
+
+.view {
+    /*background: url("https://www.tuexperto.com/wp-content/uploads/2017/10/fondo-de-pantalla-paisaje.jpg")no-repeat center center;*/
+    height: 150px;
+   position: relative;
+    padding: 20px;
+   
+}
+video {
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    -webkit-object-fit: fill;
+    object-fit: fill;
+    z-index:-1;
+}
+
+.navbar {
+   background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+#bosluk {
+    height: 270px;
+    position: relative;
+}
+#bosluk img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    margin-bottom: 0;
+}
+#baslik {
+    font-size: 4vw;
+}
+#yaz {
+    height: 50px; 
+    text-align: center; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 2.5vw;
+}
+.reklam{display: block}
+@media only screen and (max-width: 920px) {
+    .view {
+        background: url("https://www.tuexperto.com/wp-content/uploads/2017/10/fondo-de-pantalla-paisaje.jpg")no-repeat center center;
+    }
+    video {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 684px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+    .reklam{display: none}
+    .leftrklm{display: none}
+    .reklamRright{display: none}
+    #bosluk {
+        height: 300px
+    }
+    #yaz {
+        height: 50px; 
+        text-align: center; 
+        border-radius: 5px; 
+        font-weight: bold; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        font-size: 2.5vw;
+    }
+}
+@media (min-width: 685px) and (max-width: 768px) {
+    .reklam{display: none}
+    .leftrklm{display: none}
+    .reklamRright{display: block}
+}
+@media (min-width: 768px) and (max-width: 1004px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+    .reklam{display: none}
+    .leftrklm{display: none}
+    .leftrklm{display: block}
+
+    #bosluk {
+        height: 290px
+    }
+    #yaz {
+        height: 50px; 
+        text-align: center; 
+        border-radius: 5px; 
+        font-weight: bold; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        font-size: 2.5vw;
+    }
+}
